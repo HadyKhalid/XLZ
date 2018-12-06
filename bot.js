@@ -78,7 +78,7 @@ const zead = [
    '*** مريم : ماذا تريد ان تسمع ***',
    '*** مريم : اضغط على الرابط اهداء مني لك | https://www.youtube.com/watch?v=hvSiuQccmtg ***',
    '*** احد ما خرج من المنزل ***',
-   '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدنا في نشر البوت وادخل هذا السيرفر  ***'
+   '*** نسيت شي تحبني انا مريم أو لا؟  ***'
 ]
  client.on('message', message => {
  if (message.content.startsWith('!مريم')) {
@@ -198,7 +198,7 @@ message.channel.awaitMessages(filte, { max: 1, time: 15000, errors: ['time'] })
   }
 });
 
-const developers = ["462437279487754240","442670807240671252",""]
+const developers = ["465999996400173066","442670807240671252","410032227490201620"]
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
